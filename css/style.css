@@ -1,0 +1,278 @@
+/* general color:   #00bc8a;*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;0,900;1,100;1,200;1,300;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}.container{
+    width: 1150px;
+    margin: auto;}
+header{
+    width: 100%;
+    height: 500px;
+    background-color: #ddd;
+  
+ 
+}header .heading{
+    width: 50%;
+    float: left;
+    margin-top:150px;
+    border-right: 1px solid gray;
+}header .heading h2{
+    width: 49%;
+    font-size: 25px;
+    line-height: 1.7;
+}header .heading span{
+text-transform: uppercase;
+}
+header .heading span:hover{
+color: rgb(103, 38, 110);
+
+cursor: pointer;
+}header .lorem{
+    width: 40%;
+    margin-left:3%;
+    float: left;
+    margin-top: 150px;
+}header .lorem p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    line-height: 1.8;
+    font-weight: bold;
+}header .lorem button{
+    border:0;
+    background: none;
+    color: #fff;
+    font-size: 18px;
+    background-color: rgb(103, 38, 110);
+    padding: 15px;
+    border-radius:50px;
+    width:200px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    outline: 0;
+    cursor: pointer;
+}@media (max-width:1023px){
+    header{
+       min-width:150%;
+       margin-bottom: 15px;
+       display: flex;
+      justify-content: center;
+      font-size:1.1em;  
+    }header .heading{
+        width:50%;
+    }
+    header .heading h2{
+      font-size: 25px;
+      font-weight: 400;
+      line-height: 1.5;
+      margin-left: 150px;
+    }header .lorem{
+        width: 30%;
+    }header .lorem button{
+        margin-top:13px;
+        padding: 12px;
+        text-align: center;
+    }main .learn{
+        margin-top:25px;
+    }main .learn h2{
+ 
+    }main .learn p{
+
+    }main .learn button{
+        
+    }
+
+}/*phones*/
+@media (min-width:576px){
+         
+}/*tablets*/
+@media (min-width:768px){
+
+}/*large device */
+@media (min-width:992px){
+
+}/*large desktops*/
+@media (max-width:1200px){
+
+}
+main{
+   
+   width: 100%;
+   height: 350px;
+   border-bottom: 2px solid #ddd;   
+   padding-top: 50px;
+}main .learn{
+ width: 50%;
+ border-right: 2px solid #ddd;
+ float: left;
+
+}main .learn h2{
+    font-family: tahoma;
+    color: #777;
+    text-decoration: underline;
+
+}main .learn p{
+    color: #888;
+    font-family: tahoma;
+    line-height: 1.8;
+
+}main .learn button{
+    border: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 30px;
+    width: 200px;
+    color: #888;
+    cursor: pointer;
+    text-transform: uppercase;
+    outline: 0;
+    margin-top: 20px;
+}
+main .list{
+ width: 40%;
+ float: left;
+ visibility: hidden;
+ margin-left: 5%;
+}.list p{
+    line-height: 2;
+    font-weight: bold;
+    color: #666;
+    font-family: tahoma;
+
+}.list i{
+    padding-right:25px;
+    color:#00bc8a;
+    
+}
+.images{
+    width: 100%;
+    height:auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+    background-color: #f2f2f2;
+}.images .part img{
+width: 40%;
+float: left;
+
+}.part{
+    margin-top: 15px;
+}
+.part-desc{
+    width: 40%;
+    padding-left: 70px;
+    padding-top: 50px;
+    float: left;
+}.part-desc h2{
+    color: #777;
+    font-family: tahoma;
+    text-decoration: underline;
+}.part-desc p{
+    color: #888;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2;
+    font-weight: bold;
+   
+
+}.part-desc button{
+    background-color: 0;
+    margin-top: 15px;
+    border: 1px solid #ddd;
+    width: 200px;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #777;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}.part-desc button:hover{
+    background-color: #888;
+    color: #fff;
+}.clear{
+    clear: both;
+}.contact{
+  width: 100%;
+  
+  margin-top: 40px;
+  background-color: #fff;
+  overflow: hidden;
+}.form{
+    width: 50%;
+    float: left;
+    border-right: 2px solid #ddd;
+    text-transform: capitalize;
+
+}.form h2{
+    font-family: tahoma;
+    margin-bottom: 20px;
+
+}.form p{
+    line-height: 2;
+    padding-right: 2px;
+    font-family:Tahoma;
+    font-weight: bold;
+    color: #888;
+    margin-bottom: 25px;
+}.form input[type=text]{
+    width: 220px;
+    height: 30px;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    outline: 0;
+}
+.form input[type=email]{
+    width: 220px;
+    margin-bottom: 10px;
+    height: 30px;
+    font-size: 20px;
+    outline: 0;
+    outline: 0;
+    padding: 20px;
+}.form textarea{
+    width: 510px;
+    outline: 0;
+    font-size: 20px;
+    padding-left: 20px;
+    
+}.form input[type=submit]{
+    width: 150px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    outline: 0;
+    padding: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+    background-color: #fff;
+    text-transform: uppercase;
+}
+.links{
+padding-top: 50px;
+float: left;
+padding-left: 50px;
+
+}.links p{
+    line-height: 2.5;
+    font-size: 20px;
+    text-transform: capitalize;
+}.links p i{
+    padding-right: 25px;
+    color: #00bc8a;
+    font-size: 22px;
+}.footer{
+         border-top: 1px solid #ddd;
+         width: 100%;
+         height: 150px;
+         margin-top: 70px;
+}.footer p{
+      margin-top: 25px;
+      font-size: 21px;
+      text-transform: capitalize;
+      font-family: tahoma;
+      color:#777;
+      text-align: center;
+      line-height: 150px;
+}
